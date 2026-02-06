@@ -1,0 +1,14 @@
+test_size: 0.2
+random_state: 50
+
+model:
+  embedding_dim: 16
+  hidden_size: 32
+  num_layers: 1
+  learning_rate: 0.01
+  epochs: 50
+  BATCH_SIZE: 32
+  SEQUENCE_LENGTH: 64
+
+paths:
+  movie_data: "/home/sam_hp/rnn-christmas-movies/data/christmas_movies.txt"
